@@ -1,0 +1,38 @@
+.main-container {
+	max-width: 1050px;
+	padding: 0 15px;
+	margin: 0 auto;
+	//height: 500px;
+}
+
+p,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	transition: all 0.3s ease 0s;
+}
+
+a:hover {
+	//color: $secondary2;
+	text-decoration: none;
+}
+
+body._lock {
+	overflow: hidden;
+}
+
+button {
+	background: transparent;
+	border: none;
+}

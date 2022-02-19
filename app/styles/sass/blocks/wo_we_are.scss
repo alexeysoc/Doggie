@@ -1,0 +1,86 @@
+.wo_we_are {
+    @include adaptiv-value("height", 740, 600, 1);
+    color: $white;
+    position: relative;
+}
+
+.wo_we_are-wrapper {
+    position: absolute;
+    top: -80px;
+    @include adaptiv-value("height", 700, 600, 1);
+    background-color: $primary;
+    max-width: 1020px;
+    padding: 94px 87px;
+    @include adaptiv-value("padding-top", 94, 30, 1);
+    @include adaptiv-value("padding-bottom", 94, 30, 1);
+    @include adaptiv-value("padding-left", 87, 40, 1);
+    @include adaptiv-value("padding-right", 87, 40, 1);
+    border-radius: 40px;
+    margin-right: 15px;
+}
+
+.section__name {
+    display: block;
+    max-width: 434px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding-top: 2px;
+    padding-left: 34px;
+    margin-bottom: 31px;
+    position: relative;
+}
+
+.section__name::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -2px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/dist/section__name-img.svg);
+}
+
+.section__title {
+    font-weight: 900;
+    @include adaptiv-value("font-size", 36, 22, 1);
+    line-height: 1.17;
+    max-width: 583px;
+    @include adaptiv-value("max-width", 583, 200, 1);
+}
+
+.section__text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 32px;
+}
+
+.circles-bg {
+    position: absolute;
+    width: 19.7%;
+    right: -76px;
+    top: -109px;
+    @include adaptiv-value("right", -76, 0, 1);
+    @include adaptiv-value("top", -109, 90, 1);
+}
+
+.wo_we_are-bg {
+    display: block;
+    position: absolute;
+    width: 65%;
+    @include adaptiv-value("left", -14, 0, 1);
+    @include adaptiv-value("bottom", -145, -45, 1);
+}
+
+.wo_we_are-img {
+    display: block;
+    position: absolute;
+    width: 83%;
+    //left: 87px;
+    @include adaptiv-value("left", 87, 26, 1);
+    @include adaptiv-value("bottom", -120, -40, 1);
+    border-radius: 40px;
+    box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+}

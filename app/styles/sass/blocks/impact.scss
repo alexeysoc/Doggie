@@ -1,0 +1,137 @@
+@import 'mixin.scss';
+
+.impact {
+  padding: 0 0 72px 0;
+  color: $white;
+}
+
+.impact__bg-container {
+  max-width: 1050px;
+  height: 80px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.impact__bg {
+  position: absolute;
+  display: block;
+  top: 0;
+  z-index: 2;
+}
+
+.impact__bg2 {
+  right: -80px;
+  top: 80px;
+}
+
+.impact__bg1 {
+  right: 15px;
+  border-radius: 40px;
+
+  @media (max-width: 530px) {
+    width: 100%;
+    right: 0;
+    padding: 0 10px;
+  }
+}
+
+.impact__wrapper {
+  background-color: $secondary1;
+  padding-top: 105px;
+}
+
+.title__wrapper {
+  max-width: 411px;
+  position: relative;
+  z-index: 15;
+
+  @media (max-width: 900px) {
+    margin-top: 170px;
+  }
+}
+
+.section__title-impact {
+  @media (max-width: 500px) {
+    max-width: 100% !important;
+  }
+}
+
+.impact__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 75px;
+  padding-bottom: 190px;
+
+  @media (max-width: 700px) {
+    padding-bottom: 120px;
+  }
+
+  @media (max-width: 500px) {
+    justify-content: center;
+  }
+}
+
+.impact__data-item {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.impact__data-img {
+  margin-right: 14px;
+}
+
+.impact__data-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.impact__data-num {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.17;
+  color: $white;
+  margin-bottom: 7px;
+}
+
+.impact__data-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $primary;
+}
+
+.impact__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary;
+  border-radius: 20px;
+  @include adaptiv-value("padding-left", 70, 10, 1);
+  @include adaptiv-value("padding-right", 76, 10, 1);
+  margin-top: -78px;
+  height: 150px;
+
+  @media (max-width: 700px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.impact__inner-title {
+  flex: 0 1 560px;
+  font-weight: 900;
+  font-size: 24px;
+  @include adaptiv-value("font-size", 24, 18, 1);
+  line-height: 1.25;
+  color: $white;
+  margin-right: 10px;
+}
+
+.impact__btn {
+  width: 210px;
+  height: 48px;
+}

@@ -1,0 +1,593 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<!-- <base href="/"> -->
+
+	<title>
+		Doggie daycare
+	</title>
+	<meta name="description" content="Startup HTML template OptimizedHTML 5" />
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<link rel="icon" href="images/favicon.png" />
+	<meta property="og:image" content="images/dist/preview.jpg" />
+
+	<link rel="stylesheet" href="css/main.min.css" />
+	<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+</head>
+
+<main class="main">
+	<header class="header">
+		<div class="main-container">
+			<div class="top-nav">
+				<div class="top-nav__contact">
+					<a class="top-logo" href="#">
+						<img class="top-logo__img" src="images/dist/logo.svg " alt="" />
+						<p class="top-logo__text">logoipsum</p>
+					</a>
+					<div class="top-contact">
+						<div data-da=".top-nav__navs, 768, last" class="top-contact__boarding">
+							<svg class="boarding-img" width="20" height="20" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M9.99 0C4.47 0 0 4.48 0 10s4.47 10 9.99 10C15.52 20 20 15.52 20 
+								10S15.52 0 9.99 0zM10 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8
+								 8-3.58 8-8 8zM9 5h1.5v5.25l4.5 2.67-.75 1.23L9 11V5z" fill="#F2726F" />
+							</svg>
+							<!-- <img class="boarding-img" src="images/dist/boarding.svg" alt="" /> -->
+							<div class="boarding-inner">
+								<p class="boarding-title">BOARDING HOURS</p>
+								<p class="boarding-time">Mon - Sat: 7:00 am - 6:00 pm</p>
+							</div>
+						</div>
+
+						<div class="top-contact__phone">
+							<a class="phone-link" href="tel:+5555555555">
+								<svg class="phone-img" width="18" height="18" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M1 0h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 
+							1.02l-2.2 2.2c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.2-.19.45-.29.71-.29.1
+							 0 .21.01.31.05 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V17c0 .55-.45 1-1 
+							 1C7.61 18 0 10.39 0 1c0-.55.45-1 1-1zm2.54 2c.06.89.21 1.76.45 2.59l-1.2 
+							 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51zm9.86 12.02c.85.24 1.72.39 
+							 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19z" fill="#F2726F" />
+								</svg>
+							</a>
+							<div class="phone-inner">
+								<button class="phone-gallback" >CALL US</button>
+								<a class="phone-link" href="tel:+5555555555">(555) Pup-Cares</a>
+							</div>
+						</div>
+
+						<button class="btn__white btn top-contact__btn">Make an Appointment</button>
+					</div>
+				</div>
+				<div class="top-nav__inner">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<nav class="top-nav__nav">
+						<ul class="top-nav__navs">
+
+							<li class="top-nav__subnav">
+								<a href="#" class="top-nav__link">Services</a>
+								<ul class="top-nav__subnavs">
+									<li><a href="#" class="top-nav__sublink">Подменю 1-1</a></li>
+									<li><a href="#" class="top-nav__sublink">Подменю 2-1</a></li>
+									<li><a href="#" class="top-nav__sublink">Подменю 3-1</a></li>
+								</ul>
+							</li>
+
+							<li><a href="#" class="top-nav__link">Specials</a></li>
+							<li><a href="#" class="top-nav__link">Facilities</a></li>
+							<li><a href="#" class="top-nav__link">Reviews</a></li>
+
+							<li class="top-nav__subnav">
+								<a href="#" class="top-nav__link">Shop</a>
+								<ul class="top-nav__subnavs">
+									<li><a href="#" class="top-nav__sublink">Подменю 1-2</a></li>
+									<li><a href="#" class="top-nav__sublink">Подменю 2-2</a></li>
+									<li><a href="#" class="top-nav__sublink">Подменю 3-2</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="top-nav__link">About</a></li>
+
+						</ul>
+
+					</nav>
+					<form data-da=".top-contact, 768, first" class="top-nav__search" id="form-search">
+						
+						<svg class="search-img" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M11.965 11.255h.79l4.99 5-1.49 1.49-5-4.99v-.79l-.27-.28a6.471 6.471 0 01-4.23 1.57 6.5 6.5 0 116.5-6.5c0 1.61-.59 3.09-1.57 4.23l.28.27zm-9.71-4.5c0 2.49 2.01 4.5 4.5 4.5s4.5-2.01 4.5-4.5-2.01-4.5-4.5-4.5-4.5 2.01-4.5 4.5z"
+								fill="#4B4B4B" />
+						</svg>
+						<input class="search-input" type="text" placeholder="search">
+					</form>
+					<div data-da=".top-contact, 768, last" class="top-nav__cart">
+						<svg class="cart-img" width="22" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M17.296 9.97c-.34.62-1 1.03-1.75 1.03h-7.45l-1.1 2h12v2h-12c-1.52 0-2.48-1.63-1.75-2.97l1.35-2.44L2.996 2h-2V0h3.27l.94 2h14.8c.76 0 1.24.82.87 1.48l-3.58 6.49zM18.306 4H6.156l2.37 5h7.02l2.76-5zM6.996 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm8.01 2c0-1.1.89-2 1.99-2s2 .9 2 2-.9 2-2 2-1.99-.9-1.99-2z"
+								fill="#4B4B4B" />
+						</svg>
+						<span class="cart-items">1</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="main-cection">
+		<div class="main-container">
+			<h1 class="main-title">Premier dog boarding, daycare & day spa</h1>
+			<button class="btn btn__white main-btn">Make an Appointment</button>
+		</div>
+	</section>
+
+</main>
+
+<body>
+
+</html>
+<section class="wo_we_are">
+    <div class="main-container">
+        <div class="wo_we_are-wrapper">
+            <span class="section__name">Who we are</span>
+            <h2 class="section__title">
+                Nemo enim ipsam voluptatem quia voluptas in proident
+            </h2>
+            <p class="section__text">
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+                aliquid ex
+                ea
+                commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                molestiae
+                consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+            </p>
+            <img class="circles-bg" src="images/dist/circles-bg.svg" alt="">
+            <img class="wo_we_are-bg" src="images/dist/wo_we_are-bg.png" alt="">
+            <img class="wo_we_are-img" src="images/dist/wo_we_are.jpg" alt="">
+        </div>
+    </div>
+</section>
+<section class="promise">
+    <div class="main-container">
+        <span class="section__name section__name-blue">OUR PROMISE TO YOU</span>
+        <h2 class="section__title section__title-promise">Sed perspiciatis omnis iste natus</h2>
+        <ul class="promise__items">
+            <li class="promise__item">
+                <img class="promise__item-img" src="images/dist/dog_love.svg" alt="dog_love">
+                <div class="promise__item-desc">
+                    <div class="promise__item-title">
+                        24/7 Love & Care
+                    </div>
+                    <div class="promise__item-text">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti
+                        quos
+                        dolores et quas.
+                    </div>
+                </div>
+            </li>
+            <li class="promise__item">
+                <img class="promise__item-img" src="images/dist/dog_vet.svg" alt="dog_vet">
+                <div class="promise__item-desc">
+                    <div class="promise__item-title">
+                        On-site Veterinarian
+                    </div>
+                    <div class="promise__item-text">
+                        Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                        tempora incidunt.
+                    </div>
+                </div>
+            </li>
+            <li class="promise__item">
+                <img class="promise__item-img" src="images/dist/dog_stream.svg" alt="dog_stream">
+                <div class="promise__item-desc">
+                    <div class="promise__item-title">
+                        Live-stream Cameras
+                    </div>
+                    <div class="promise__item-text">
+                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                        consequatur illum.
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="nemo">
+    <div class="nemo__inner">
+        <img src="images/dist/dog-bg.png" alt="dog-bg" class="nemo__bg">
+        <div class="nemo__wrapper">
+            <div class="section__title section__title-nemo">
+                Nemo enim ipsam voluptatem quia voluptas in proident
+            </div>
+            <button class="nemo__btn btn">Make an Appointment</button>
+        </div>
+    </div>
+    <img src="images/dist/dog-bg2.png" alt="dog-bg2" class="nemo__bg2">
+</section>
+<section class="services">
+    <img class="services__bg" src="images/dist/services_bg.png" alt="" >
+    <div class="main-container">
+        <div class="services__wrapper">
+            <span class="section__name section__name-blue">Our Services</span>
+            <h2 class="section__title section__title-promise">Sed perspiciatis omnis iste natus</h2>
+            <ul class="services__items">
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        <img class="services__item-img" src="images/dist/dog_boarding.svg" alt="dog-boarding">
+                        <h4 class="services__item-title">
+                            Pet Boarding (No Cages)
+                        </h4>
+                        <p class="services__item-text">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            corrupti
+                            quos dolores et quas.
+                        </p>
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        <img class="services__item-img" src="images/dist/dog_daycare.svg" alt="dog_daycare">
+                        <h4 class="services__item-title">
+                            Pet Daycare
+                        </h4>
+                        <p class="services__item-text">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            corrupti
+                            quos dolores et quas.
+                        </p>
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        <img class="services__item-img" src="images/dist/dog_grooming.svg" alt="dog_grooming">
+                        <h4 class="services__item-title">
+                            Pet Day Spa & Grooming
+                        </h4>
+                        <p class="services__item-text">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            corrupti
+                            quos dolores et quas.
+                        </p>
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        <img class="services__item-img" src="images/dist/dog_food.svg" alt="dog-boarding">
+                        <h4 class="services__item-title">
+                            Custom Meal Plans
+                        </h4>
+                        <p class="services__item-text">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            corrupti
+                            quos dolores et quas.
+                        </p>
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        <img class="services__item-img" src="images/dist/dog_training.svg" alt="dog_training">
+                        <h4 class="services__item-title">
+                            Pet Training
+                        </h4>
+                        <p class="services__item-text">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            corrupti
+                            quos dolores et quas.
+                        </p>
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="" class="services__link">
+                        <img class="services__item-img" src="images/dist/dog_collar.svg" alt="dog_collar">
+                        <h4 class="services__item-title">
+                            Shop Our Store!
+                        </h4>
+                        <p class="services__item-text">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            corrupti
+                            quos dolores et quas.
+                        </p>
+                    </a>
+                </li>
+            </ul>
+            <button class="services__btn btn">Learn More</button>
+        </div>
+    </div>
+
+</section>
+<section class="appointment">
+    <div class="main-container">
+        <div class="appointment__wrapper">
+            <img class="appointment__bg" src="images/dist/appointment_bg2.svg" alt="appointment_bg2">
+            <form class="appointment__form" action="#">
+                <div class="form__inner">
+                    <h2 class="appointment__form-title">
+                        Make an appointment
+                    </h2>
+                    <input class="form__input form__input_50" type="text" name="user__name" id="user__name"
+                        placeholder="Name">
+                    <input class="form__input form__input_50" type="email" name="user__email" id="user__email"
+                        placeholder="Email">
+                    <input class="form__input form__input_50" type="tel" name="user__tel" id="user__tel"
+                        placeholder="Phone Number">
+                    <select class="form__input form__input_50" name="select_service" id="select_service">
+                        <option>Select Service</option>
+                        <option>Select Service2</option>
+                        <option>Select Service3</option>
+                        <option>Select Service4</option>
+                    </select>
+                    <textarea class="form__input text_area" name="text_area" id="text_area" cols="30" rows="10"
+                        placeholder="Tell us about your puppers include his/her name"></textarea>
+                    <button class="form__btn btn">Make an Appointment</button>
+                </div>
+            </form>
+            <div class="appointment__descr">
+                <h5 class="descr__title">
+                    Maxime placeat facere possimus omnis
+                </h5>
+                <div class="descr__num">5,700+</div>
+                <p class="descr__text">customers served</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="streams wo_we_are">
+    <div class="main-container">
+        <div class="streams-wrapper">
+            <span class="section__name">GALLERY & LIVE STREAMS</span>
+            <h2 class="section__title">
+                Check out our hard workers
+            </h2>
+            <div class="tabs">
+                <div class="tabs__top">
+                    <div class="tab__title " href="#gallery">Gallery<span class="hide"></span></div>
+                    <div class="tab__title _active" href="#stream1">Live stream: Yard 1 <span
+                            class="stream stream_active"></span></div>
+                    <div class="tab__title" href="#stream2">Live stream: Yard 2<span class="stream"></span></div>
+                    <div class="tab__title" href="#stream3">Live stream: Yard 3<span
+                            class="stream stream_active"></span></div>
+                </div>
+                <div class="tabs__bottom">
+                    <span class="icon__live  _active">Live</span>
+                    <div class="tab__img" id="gallery">
+                        <!-- Slider main container -->
+                        <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide" style="
+                                background-image: url(images/dist/stream_bg1.jpg)
+                                ">
+                                </div>
+                                <div class="swiper-slide" style="
+                                background-image: url(images/dist/stream_bg2.jpg)
+                                ">
+                                </div>
+                                <div class="swiper-slide" style="
+                                background-image: url(images/dist/stream_bg1.jpg)
+                                ">
+                                </div>
+                            </div>
+                            <!-- If we need pagination-->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                            <!-- If we need scrollbar -->
+                            <!-- <div class="swiper-scrollbar"></div> -->
+                        </div>
+                    </div>
+                    <div class="tab__img _active" id="stream1"></div>
+                    <div class="tab__img" id="stream2"></div>
+                    <div class="tab__img" id="stream3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+<section class="customers">
+    <div class="main-container">
+        <div class="customers__wrapper">
+            <div class="customers__column customers__title">
+                <span class="section__name section__name-blue">Our CUSTOMERS</span>
+                <h2 class="section__title section__title-customers">Illum qui dolorem eum quo voluptas ut distinctio
+                </h2>
+            </div>
+            <div class="customers__column">
+                <p class="customers__text">
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore ex magna aliqua. Ut enim illum ad minim veniam, quis ea
+                    exercitation ullamco cillum ut enim dolore.”
+                </p>
+                <div class="customers__user">
+                    <img class="user__foto" src="images/dist/user1.jpg" alt="user__foto">
+                    <p class="user__name">Cullen Bohannon</p>
+                </div>
+            </div>
+            <div class="customers__column">
+                <p class="customers__text">
+                    “Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ipsam voluptatem
+                    aspernatur.”
+                </p>
+                <div class="customers__user">
+                    <img class="user__foto" src="images/dist/user2.jpg" alt="user__foto">
+                    <p class="user__name">Jennifer Thomas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="impact">
+    <div class="impact__bg-container">
+        <img class="impact__bg impact__bg2" src="images/dist/impact_bg2.svg" alt="impact_bg2">
+        <img class="impact__bg impact__bg1" src="images/dist/impact_bg1.jpg" alt="impact_bg1">
+    </div>
+    <div class="impact__wrapper">
+        <div class="main-container">
+            <div class="title__wrapper">
+                <span class="section__name">OUR IMPACT</span>
+                <h2 class="section__title section__title-impact">
+                    Nemo enim ipsam voluptatem quia voluptas
+                </h2>
+            </div>
+            <ul class="impact__data">
+                <li class="impact__data-item">
+                    <img class="impact__data-img" src="images/dist/impact_item1.svg" alt="">
+                    <div class="impact__data-wrapper">
+                        <div class="impact__data-num">3,700</div>
+                        <p class="impact__data-text">puppy baths</p>
+                    </div>
+                </li>
+                <li class="impact__data-item">
+                    <img class="impact__data-img" src="images/dist/impact_item2.svg" alt="">
+                    <div class="impact__data-wrapper">
+                        <div class="impact__data-num">4,500</div>
+                        <p class="impact__data-text">dogs boarded</p>
+                    </div>
+                </li>
+                <li class="impact__data-item">
+                    <img class="impact__data-img" src="images/dist/impact_item3.svg" alt="">
+                    <div class="impact__data-wrapper">
+                        <div class="impact__data-num">2,900</div>
+                        <p class="impact__data-text">pups trained</p>
+                    </div>
+                </li>
+                <li class="impact__data-item">
+                    <img class="impact__data-img" src="images/dist/impact_item4.svg" alt="">
+                    <div class="impact__data-wrapper">
+                        <div class="impact__data-num">12k+</div>
+                        <p class="impact__data-text">meals served</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="impact__bg-container">
+        <div class="impact__inner">
+            <h3 class="impact__inner-title">
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </h3>
+            <button class="impact__btn btn btn__white">Make&#160;an&#160;Appointment</button>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer__top">
+        <div class="container footer__container">
+            <div class="footer__top-colum">
+                <a class="top-logo footer__logo" href="#">
+                    <img class="top-logo__img" src="images/dist/footer-logo.svg " alt="" />
+                    <p class="footer__logo-text top-logo__text">logoipsum</p>
+                </a>
+                <p class="about__company">
+                    This is a blurb about the company sed do eiusmod
+                    tempor incididunt ut labore et dolore ex magna aliqua.
+                </p>
+                <ul class="social__links">
+                    <li class="social__links-item">
+                        <a href="#" class="social__link">
+                            <img class="social__img" src="images/dist/facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="social__links-item">
+                        <a href="#" class="social__link">
+                            <img class="social__img" src="images/dist/tvitter.svg" alt="tvitter">
+                        </a>
+                    </li>
+                    <li class="social__links-item">
+                        <a href="#" class="social__link">
+                            <img class="social__img" src="images/dist/instagram.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li class="social__links-item">
+                        <a href="#" class="social__link">
+                            <img class="social__img" src="images/dist/yuotube.svg" alt="yuotube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__top-colum">
+                <h3 class="footer__top-title">EXPLORE LINKS</h3>
+                <div class="footer__nav-colums">
+                    <div class="footer__nav-colum">
+                        <ul class="footer__nav-links">
+                            <li><a class="footer__nav-link" href="#">About</a></li>
+                            <li><a class="footer__nav-link" href="#">Services</a></li>
+                            <li><a class="footer__nav-link" href="#">Specials</a></li>
+                            <li><a class="footer__nav-link" href="#">Estimates</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-colum">
+                        <ul class="footer__nav-links">
+                            <li><a class="footer__nav-link" href="#">Reviews</a></li>
+                            <li><a class="footer__nav-link" href="#">Shop</a></li>
+                            <li><a class="footer__nav-link" href="#">Careers</a></li>
+                            <li><a class="footer__nav-link" href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__top-colum">
+                <h3 class="footer__top-title footer__contact-title">CONTACT</h3>
+                <ul class="footer__contact-links">
+                    <li>
+                        <img class="footer__contact-img" src="images/dist/location.svg" alt="location">
+                        <a class="footer__contact-link" href="#">
+                            321 Pikes Place Parkway
+                            Seattle, WA 54321
+                        </a>
+                    </li>
+                    <li>
+                        <img class="footer__contact-img" src="images/dist/footer-phone.svg" alt="footer-phone">
+                        <a class="footer__contact-link" href="tel:5557654321">(555) 765-4321</a>
+                    </li>
+                    <li>
+                        <img class="footer__contact-img" src="images/dist/email.svg" alt="email">
+                        <a class="footer__contact-link" href="mailto:Info@company.com">Info@company.com</a>
+                    </li>
+                    <li>
+                        <img class="footer__contact-img" src="images/dist/timer.svg" alt="timer">
+                        <a class="footer__contact-link" href="#">Mon - Sat:  7:000 am - 6:00 pm</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="footer__bottom-colum">
+            Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod
+        </div>
+        <div class="footer__bottom-colum">
+            <div class="footer__bottom-copyrite">© 2018 Company. </div>
+            <div class="footer__bottom-links">
+                <a href="" class="footer__bottom-link">Privacy Policy</a>
+                <a href="" class="footer__bottom-link">Terms & Conditions</a>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="js/app.min.js"></script>
+
+</body>
+
+</html>
